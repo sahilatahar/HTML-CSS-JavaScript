@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainBody">
+            <h2>Survey Form</h2>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name">
+            <label>Email</label>
+            <input type="text" placeholder="Enter your email">
+            <label>Age</label>
+            <input type="number" placeholder="Enter your age">
+            <label>Choose your current position</label>
+
+            <select>
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label>Choose your catagory?</label>
+            <div id="catagory">
+                <label><input type="radio" name="catagory">Web Development</label>
+                <label><input type="radio" name="catagory">App Development</label>
+                <label><input type="radio" name="catagory">Artificial Intelligence</label>
+            </div>
+
+            <label>Check known Languages and Framworks</label>
+            <div id="languages">
+                <label><input type="checkbox">C</label>
+                <label><input type="checkbox">C++</label>
+                <label><input type="checkbox">Java</label>
+                <label><input type="checkbox">Phython</label>
+                <label><input type="checkbox">Javascript</label>
+                <label><input type="checkbox">React</label>
+                <label><input type="checkbox">Flutter</label>
+            </div>
+            <label>Any comment or suggestion</label>
+            <textarea id="comment" name="comment" placeholder="Enter your comment here"></textarea>
+
+            <button id="submit-btn" type="submit">Submit</button>
+    </div>
+</body>
+</html>
