@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body-box">
+        <div id="dialog-box">
+            <h2>Let's play</h2>
+            <h1>Tic Tac Toe</h1>
+            <img class="image" src="images/image.png">
+            <input type="text" id="first-input" placeholder="First Player Name">
+            <input type="text" id="second-input" placeholder="Second Player Name">
+            <button class="button" id="play-button" type="submit">Play Game</button>
+        </div>
+
+        <!-- HomePage to play game -->
+
+        <div id="game-box">
+            <div class="header-box">First Player : X</div>
+            <div class="row">
+                <div id="box1" onclick="onClick(0)"></div>
+                <div id="box2" onclick="onClick(1)"></div>
+                <div id="box3" onclick="onClick(2)"></div>
+            </div>
+            <div class="row">
+                <div id="box4" onclick="onClick(3)"></div>
+                <div id="box5" onclick="onClick(4)"></div>
+                <div id="box6" onclick="onClick(5)"></div>
+            </div>
+            <div class="row">
+                <div id="box7" onclick="onClick(6)"></div>
+                <div id="box8" onclick="onClick(7)"></div>
+                <div id="box9" onclick="onClick(8)"></div>
+            </div>
+        </div>
+
+        <div id="result-box">
+            <h2>I Hope you enjoy it.</h2>
+            <img class="image" id="winner-image" src="images/draw.png">
+            <h1 id="winner-name">Juned</h1>
+            <button class="button" id="play-again-button" type="submit">Play again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
