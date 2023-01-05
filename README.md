@@ -4,12 +4,16 @@ This is my project created using HTML , CSS , JavaScript
 
 ## Screenshot:camera:
 
-## Survey Form
+## (1) Survey Form
 
 <img src="screenshots/survey_form1.png">
 <img src="screenshots/survey_form2.png">
 
-## Decimal To Binary Converter
+## (2) Decimal To Binary Converter
 
 <img src="screenshots/decimal_to_binary1.png">
 <img src="screenshots/decimal_to_binary2.png">
+
+## (3) Tic Tak Toe
+
+<video src="screenshots/tic_tac_toe.mp4" type="video/mp4 controls>
