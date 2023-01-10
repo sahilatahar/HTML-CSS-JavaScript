@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Connection Check</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+        .body-box {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-box">
+        <h1 id="text">You are currently online</h1>
+    </div>
+
+    <script>
+        const bodyBox = document.querySelector('.body-box');
+        window.onload = function () {
+            const text = document.getElementById('text');
+            text.textContent = `You are currently ${window.navigator.onLine ? 'online' : 'offline'}`;
+            bodyBox.style.backgroundColor = window.navigator.onLine ? '#4cd137' : '#e84118';
+        }
+
+        window.addEventListener('online' , () => {
+            text.textContent = 'You are currently online';
+            bodyBox.style.backgroundColor = '#4cd137';
+        });
+
+        window.addEventListener('offline' , () => {
+            text.textContent = 'You are currently offline';
+            bodyBox.style.backgroundColor = '#e84118';
+        });
+        
+    </script>
+</body>
+</html>

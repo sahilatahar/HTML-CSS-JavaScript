@@ -2,7 +2,7 @@
 
 This is my project created using HTML , CSS , JavaScript
 
-## Screenshot:camera:
+# :camera: Screenshot
 
 ## (1) Survey Form
 
