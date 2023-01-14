@@ -28,4 +28,5 @@ https://user-images.githubusercontent.com/100127570/211485127-8c36fe70-6ac7-44a3
 <img src="screenshots/profile_card_in_mobile.png">
 <img src="screenshots/profile_card_in_pc.png">
 
+https://user-images.githubusercontent.com/100127570/212472997-bb4fb495-b06a-475b-839d-f01c39729864.mp4
 
