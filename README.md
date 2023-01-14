@@ -27,3 +27,5 @@ https://user-images.githubusercontent.com/100127570/211485127-8c36fe70-6ac7-44a3
 
 <img src="screenshots/profile_card_in_mobile.png">
 <img src="screenshots/profile_card_in_pc.png">
+
+
