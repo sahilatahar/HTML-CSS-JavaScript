@@ -37,3 +37,15 @@ https://user-images.githubusercontent.com/100127570/212472997-bb4fb495-b06a-475b
 
 https://user-images.githubusercontent.com/100127570/212527202-e8abb92b-f6bb-4539-a49b-e51459af8a60.mp4
 
+## (7) Responsive Navbar
+
+<table>
+<tr>
+    <td>
+        <img scr="screenshots/rnb1.png">
+    </td>
+    <td>
+        <img scr="screenshots/rnb2.png">
+    </td>
+</tr>
+</table>
