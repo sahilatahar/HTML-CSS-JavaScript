@@ -12,7 +12,7 @@
       <div class="navbar">
         <h2 class="heading">Navbar</h2>
         <div class="hamburger">
-          <div class="hamburger-icon" onclick="myFunction(this)">
+          <div class="hamburger-icon" onclick="toggleNavbar(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -25,18 +25,19 @@
             <li>About</li>
             <li>Contact us</li>
             <li>
-              <div class="searchBox">
+            <div class="searchBox">
                 <input type="text" name="search" id="search-input" />
                 <input type="submit" value="Search" />
-              </div>
-              </li>
+            </div>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <script>
       let isHamburgerClicked = false;
-      function myFunction(x) {
+      function toggleNavbar(x) {
         x.classList.toggle("change");
         document.querySelector('.left-navbar').classList.toggle('active');
         isHamburgerClicked = !isHamburgerClicked;
