@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <h2 class="heading">Navbar</h2>
+        <div class="hamburger">
+          <div class="hamburger-icon" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+        <div class="left-navbar">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Contact us</li>
+            <li>
+              <div class="searchBox">
+                <input type="text" name="search" id="search-input" />
+                <input type="submit" value="Search" />
+              </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script>
+      let isHamburgerClicked = false;
+      function myFunction(x) {
+        x.classList.toggle("change");
+        document.querySelector('.left-navbar').classList.toggle('active');
+        isHamburgerClicked = !isHamburgerClicked;
+      }
+
+    </script>
+  </body>
+</html>

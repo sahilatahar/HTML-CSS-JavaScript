@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: #11101b;
+  color: #fefefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-navbar,
+.hamburger {
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+
+.heading {
+  width: 20%;
+  font-size: 2em;
+  padding: 0px 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.3em;
+  cursor: pointer;
+  padding: 20px;
+}
+/* 
+li:hover {
+  background-color: #fefefe;
+  color: #11101b;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.left-navbar ul:nth-child(5):hover {
+  background-color: #11101b;
+  color: #fefefe;
+} */
+
+.searchBox {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+}
+
+.searchBox input[type="text"] {
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 5px;
+  margin-right: 5px;
+}
+
+.searchBox input[type="submit"] {
+  min-width: 100px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+@media only screen and (max-width: 1320px) {
+  .searchBox {
+    margin-left: 5vw;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .searchBox {
+    margin-left: 4vw;
+  }
+  .left-navbar {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .searchBox {
+    margin-left: 2vw;
+  }
+  .searchBox input[type="submit"] {
+    min-width: 60px;
+  }
+
+  li,
+  li:hover {
+    padding: 13px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .left-navbar {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .hamburger-icon {
+    display: inline-block;
+  }
+  
+  .left-navbar {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    width: 100vw;
+    transition: 0.5s;
+  }
+  
+  .left-navbar.active {
+    display: flex;
+  }
+
+  .left-navbar li {
+    width: 100vw;
+    background-color: #11101b;
+    color: #fefefe;
+    text-align: center;
+  }
+  .left-navbar ul {
+    flex-direction: column;
+  }
+
+  .searchBox {
+    width: 100vw;
+  }
+}
