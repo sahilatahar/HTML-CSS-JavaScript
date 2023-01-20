@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Image Slider</h1>
+    <div class="slide-container">
+      <div class="btns">
+        <div class="btn" onclick="onLeftClick()">
+          <img src="icons/rounded-left.svg" alt="left icon" class="icon" />
+        </div>
+        <div class="btn" onclick="onRightClick()">
+          <img src="icons/rounded-right.svg" alt="left icon" class="icon" />
+        </div>
+      </div>
+      <div id="image-number">1 / 5</div>
+    </div>
+
+    <script>
+      let imageNo = 1;
+      const image_number_box = document.getElementById("image-number");
+      const slide_container = document.querySelector(".slide-container");
+
+      function onRightClick() {
+        if (imageNo < 5) {
+          imageNo++;
+        } else {
+          imageNo = 1;
+        }
+        slide_container.style.backgroundImage = `url("./images/image${imageNo}.jpeg")`;
+        image_number_box.textContent = `${imageNo} / 5`;
+      }
+
+      function onLeftClick() {
+        if (imageNo > 1) {
+          imageNo--;
+        } else {
+          imageNo = 5;
+        }
+        slide_container.style.backgroundImage = `url("./images/image${imageNo}.jpeg")`;
+        image_number_box.textContent = `${imageNo} / 5`;
+      }
+    </script>
+  </body>
+</html>

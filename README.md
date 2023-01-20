@@ -49,3 +49,7 @@ https://user-images.githubusercontent.com/100127570/212527202-e8abb92b-f6bb-4539
     </td>
 </tr>
 </table>
+
+## (8) Image Slider
+
+<img src="screenshots/image_slider.png">
