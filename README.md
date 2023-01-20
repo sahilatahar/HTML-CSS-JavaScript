@@ -53,3 +53,6 @@ https://user-images.githubusercontent.com/100127570/212527202-e8abb92b-f6bb-4539
 ## (8) Image Slider
 
 <img src="screenshots/image_slider.png">
+
+https://user-images.githubusercontent.com/100127570/213699818-4d866fb8-73c0-4840-a83c-3ebd67db4120.mp4
+
