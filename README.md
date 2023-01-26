@@ -42,10 +42,10 @@ https://user-images.githubusercontent.com/100127570/212527202-e8abb92b-f6bb-4539
 <table>
 <tr>
     <td>
-        <img scr="screenshots/rnb1.png">
+        <img src="screenshots/rnb1.png">
     </td>
     <td>
-        <img scr="screenshots/rnb2.png">
+        <img src="screenshots/rnb2.png">
     </td>
 </tr>
 </table>
