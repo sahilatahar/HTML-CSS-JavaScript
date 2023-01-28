@@ -1,0 +1,88 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100vw;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #15234b;
+     font-family: 'Caveat', cursive;
+ }
+
+ .backgroundBox {
+     width: 50vw;
+     height: 80vh;
+     min-height: 400px;
+     background-color: #1DA1F2;
+     padding: 20px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .box {
+     width: 40vw;
+     height: 60vh;
+     min-height: 300px;
+     background-color: white;
+     padding: 20px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .share-text {
+     font-size: 1.5vw;
+ }
+
+ img {
+     width: 3vw;
+ }
+
+ .quete,
+ .author {
+     width: 100%;
+     height: 40%;
+     color: black;
+     font-size: 2vw;
+     text-align: justify;
+ }
+
+ .quete {
+     padding: 0px 4vw;
+ }
+
+ .author {
+     height: 10%;
+     font-size: 1.5vw;
+     text-align: right;
+     padding-right: 3vw;
+ }
+
+ .box button {
+     width: 100%;
+     height: 15%;
+     border-radius: 5px;
+     border: none;
+     background-color: #fc6867;
+     color: white;
+     font-size: 1rem;
+ }
+
+ #shareBtn {
+     width: 50%;
+     height: 12%;
+     background-color: #1DA1F2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
