@@ -59,3 +59,10 @@ https://user-images.githubusercontent.com/100127570/213699818-4d866fb8-73c0-4840
 ## (9) Quetes Genrator
 
 <img src="screenshots/quetes_generator.png">
+
+## (10) Snack Game
+
+https://user-images.githubusercontent.com/100127570/216635285-ef5b68ab-8b69-453a-b1c5-1aa264c85e8a.mp4
+
+
+
