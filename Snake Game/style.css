@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A60FF;
+    flex-direction: column;
+}
+
+.header {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    color: #F9F8FD;
+    margin-bottom: 20px;
+}
+
+#board {
+    width: 40vw;
+    height: 70vh;
+    background-color: #F9F8FD;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    border-radius: 5px;
+}
+
+.head {
+    background-color: #2A60FF;
+    border-radius: 5px;
+}
+
+.snake {
+    border-radius: 5px;
+    background-color: #2A60FF;
+}
+
+.food {
+    border-radius: 5px;
+    background-color: #d63031;
+}
