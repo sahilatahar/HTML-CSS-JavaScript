@@ -1,6 +1,6 @@
 # HTML-CSS-JavaScript
 
-This is my project created using HTML , CSS , JavaScript
+These are simple project created using HTML, CSS, vanilla JavaScript
 
 # :camera: Screenshot
 
@@ -75,3 +75,7 @@ https://user-images.githubusercontent.com/100127570/217461633-e53daa23-d991-4649
 ## (13) File Downloader
 
 <img src="screenshots/file_downloader.png">
+
+## (14) QR Code Generator
+
+<img src="screenshots/qr_code_generator.png">

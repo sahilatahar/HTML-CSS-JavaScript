@@ -3,7 +3,7 @@ const downloadBtn = document.getElementById("downloadBtn");
 
 downloadBtn.addEventListener("click", (e) => {
   let url = urlInput.value;
-  downloadBtn.textContent = "Downloading File ...";
+  downloadBtn.value = "Downloading File ...";
 
   fetch(url)
     .then((response) => response.blob())
@@ -14,7 +14,7 @@ downloadBtn.addEventListener("click", (e) => {
       aTag.download = "File";
       aTag.click();
       URL.revokeObjectURL(tempUrl);
-      downloadBtn.textContent = "Download File";
+      downloadBtn.value = "Download File";
     })
     .catch((error) => {
       alert("Failed to download");
