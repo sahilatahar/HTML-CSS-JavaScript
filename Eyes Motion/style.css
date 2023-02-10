@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background: #4c547f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    width: 350px;
+    height: 350px;
+    background: #ffcd00;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.face:hover {
+    background: linear-gradient(180deg, #f44336, #ffcd00);
+
+}
+
+.face:hover .mouth {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.eyes {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.eye {
+    width: 100px;
+    height: 100px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupil {
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50%;
+}
+
+.mouth {
+    width: 150px;
+    height: 50px;
+    background: #4c547f;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
