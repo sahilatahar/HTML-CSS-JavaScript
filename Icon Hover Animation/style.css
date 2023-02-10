@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #526273;
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container .fa {
+    font-size: 5em;
+    color: transparent;
+}
+
+.fa-twitter {
+    -webkit-text-stroke: 2px #1da1f2;
+}
+
+.fa-instagram {
+    -webkit-text-stroke: 2px #dd2a7b;
+}
+
+.fa-whatsapp {
+    -webkit-text-stroke: 2px #25d366;
+}
+
+.fa-youtube-play {
+    -webkit-text-stroke: 2px #ff0000;
+}
+
+.icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    height: 0;
+    transition: height 0.5s ease-in-out;
+    font-family: fontAwesome;
+    font-size: 5em;
+    text-align: center;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.icon:hover::before {
+    height: 100%;
+}
+
+.icon:nth-child(1):before {
+    content: '\f099';
+    border-bottom: 4px solid #1da1f2;
+    color: #1da1f2;
+}
+
+.icon:nth-child(2):before {
+    content: '\f16d';
+    border-bottom: 4px solid #dd2a7b;
+    color: #dd2a7b;
+}
+
+.icon:nth-child(3):before {
+    content: '\f232';
+    border-bottom: 4px solid #25d366;
+    color: #25d366;
+}
+
+.icon:nth-child(4):before {
+    content: '\f16a';
+    border-bottom: 4px solid #ff0000;
+    color: #ff0000;
+}
