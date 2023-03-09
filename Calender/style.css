@@ -25,7 +25,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 1.5rem;
 }
 
 header .current-date {
@@ -34,19 +34,19 @@ header .current-date {
 }
 
 header .icons span {
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    padding: 0px 12px;
+    width: 1rem;
+    height: 1rem;
+    font-size: 1.5rem;
+    padding: 0px 0.8rem;
     cursor: pointer;
-    margin: 0px 8px;
+    margin: 0px 0.3rem;
     background-color: white;
     color: #ff073a;
     border-radius: 50%;
 }
 
 .calender {
-    padding: 0px 18px;
+    padding: 0px 1rem;
 }
 
 .calender ul {
@@ -54,20 +54,20 @@ header .icons span {
     list-style: none;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
 .calender .days {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .calender .weeks {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .calender ul li {
     width: calc(100% / 7);
-    height: 50px;
+    height: 3rem;
     position: relative;
     z-index: 1;
     display: flex;
@@ -82,14 +82,15 @@ header .icons span {
 .calender .days li::before {
     position: absolute;
     content: "";
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     z-index: -1;
 }
+
 .days li.active::before,
 .calender li:hover::before {
     background-color: white;
@@ -99,4 +100,14 @@ header .icons span {
 .calender li:hover {
     color: #ff073a;
     font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    .box {
+        width: 90vw;
+    }
 }

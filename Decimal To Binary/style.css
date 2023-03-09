@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,7 @@
 }
 
 .main-box {
-    width:400px;
+    width: 400px;
     height: 450px;
     background-color: #ffffff;
     border-radius: 15px;
@@ -30,7 +29,8 @@ h1 {
     color: #577BFF;
 }
 
-select,input {
+select,
+input {
     width: 80%;
     height: 10%;
     font-size: 18px;
@@ -40,6 +40,7 @@ select,input {
     margin-bottom: 20px;
     font-weight: 500;
 }
+
 label {
     margin-top: 10%;
     text-align: start;
@@ -51,6 +52,7 @@ label {
     height: 30%;
     font-weight: 600;
 }
+
 #result-box {
     width: 100%;
     height: 100%;
