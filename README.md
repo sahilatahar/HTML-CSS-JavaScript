@@ -56,9 +56,9 @@ https://user-images.githubusercontent.com/100127570/212527202-e8abb92b-f6bb-4539
 
 https://user-images.githubusercontent.com/100127570/213699818-4d866fb8-73c0-4840-a83c-3ebd67db4120.mp4
 
-## (9) Quetes Genrator
+## (9) Quotes Generator
 
-<img src="screenshots/quetes_generator.png">
+<img src="screenshots/quotes_generator.png">
 
 ## (10) Snack Game
 
@@ -87,4 +87,8 @@ https://user-images.githubusercontent.com/100127570/218003097-676da603-5881-407f
 ## (16) Eyes Motion Animation
 
 https://user-images.githubusercontent.com/100127570/218073695-7eebf0b0-fb95-4c9d-a753-3c330616347f.mp4
+
+## (17) Twitter Sidebar
+
+<img src="screenshots/twitter_sidebar.png">
 

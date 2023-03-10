@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitter Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <ul class="sidebar-list">
+            <li><i class="fa fa-twitter logo" aria-hidden="true"></i></li>
+            <li><i class="fa fa-home" aria-hidden="true"></i><a href="#">Home</a></li>
+            <li><i class="fa fa-hashtag" aria-hidden="true"></i><a href="#">Explore</a></li>
+            <li><i class="fa fa-bell-o" aria-hidden="true"></i><a href="#">Notification</a></li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="#">Messages</a></li>
+            <li><i class="fa fa-bookmark-o" aria-hidden="true"></i><a href="#">Bookmarks</a></li>
+            <li><i class="fa fa-user-o" aria-hidden="true"></i><a href="#">Profile</a></li>
+            <li><i class="fa fa-ellipsis-h" aria-hidden="true"></i><a href="#">More</a></li>
+            <button class="tweet-btn">Tweet</button>
+        </ul>
+        <div class="userBox">
+            <img src="https://userstock.io/data/wp-content/uploads/2017/07/william-stitt-151773.jpg" alt="user image">
+            <div class="details">
+                <p>User Name</p>
+                <p>@username</p>
+            </div>
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="mainBody">
+        <input type="submit" name="theme" id="theme-btn" value="Change Theme" onclick="toggleTheme()">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
