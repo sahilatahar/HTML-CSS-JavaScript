@@ -96,3 +96,7 @@ https://user-images.githubusercontent.com/100127570/223963774-ba2acbfc-6033-4381
 
 <img src="screenshots/twitter_sidebar.png">
 
+## (19) Word Counter
+
+<img src="screenshots/word_counter.png">
+
