@@ -100,3 +100,5 @@ https://user-images.githubusercontent.com/100127570/223963774-ba2acbfc-6033-4381
 
 <img src="screenshots/word_counter.png">
 
+## (20) Icon Drawer Animation
+

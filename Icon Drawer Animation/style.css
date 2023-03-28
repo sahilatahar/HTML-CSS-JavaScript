@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -5;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.6s;
+}
+
+#icon1 {
+    z-index: 1;
+    background-color: #d07f65;
+}
+
+#icon2 {
+    background-color: #fed4ae;
+}
+
+#icon3 {
+    background-color: #86eb83;
+}
+
+#icon4 {
+    background-color: #a6eaef;
+}
+
+#icon5 {
+    background-color: #d1b8d1;
+}
+
+#icon6 {
+    background-color: #f9b4be;
+}
