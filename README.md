@@ -104,3 +104,7 @@ https://user-images.githubusercontent.com/100127570/223963774-ba2acbfc-6033-4381
 
 https://user-images.githubusercontent.com/100127570/228227870-ddec4d9b-bfe4-4d0d-950c-a1bd0d76a264.mp4
 
+## (21) 10 CSS Animated Buttons
+
+<img src="screenshots/animated_buttons.png">
+
