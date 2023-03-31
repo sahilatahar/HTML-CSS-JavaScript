@@ -108,3 +108,7 @@ https://user-images.githubusercontent.com/100127570/228227870-ddec4d9b-bfe4-4d0d
 
 <img src="screenshots/animated_buttons.png">
 
+## (22) Typing Effect
+
+
+

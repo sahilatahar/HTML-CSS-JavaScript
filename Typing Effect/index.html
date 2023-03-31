@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Effect</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: #FF0032;
+        }
+
+        .container {
+            font-size: 38px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .typing {
+            width: max-content;
+            color: white;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 0;
+            animation: typing;
+            animation-timing-function: steps(25, end);
+            animation-duration: 8s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            border-right: 5px solid white;
+        }
+
+        @keyframes typing {
+            0% {
+                width: 0%;
+            }
+
+            40%,
+            50% {
+                width: 100%;
+            }
+
+            100% {
+                width: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class="typing">This is a Typing Effect.</p>
+    </div>
+</body>
+
+</html>
