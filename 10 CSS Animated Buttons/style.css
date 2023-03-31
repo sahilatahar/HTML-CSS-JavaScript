@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    background-color: #ccd1d9;
+}
+
+.block {
+    height: 200px;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+}
+
+.button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: inherit;
+}
+
+/* Button 1 CSS */
+.button-1 {
+    background-color: #AA77FF;
+    border: none;
+    transition: outline-offset 0.2s;
+    outline: none;
+}
+
+.button-1:hover {
+    outline: 2px solid white;
+    outline-offset: -0.5rem;
+}
+
+/* Button 2 CSS */
+.button-2 {
+    border-radius: 5px;
+    border: 2px solid #EA5455;
+    color: #EA5455;
+    transition: all 0.3s;
+}
+
+.button-2:hover {
+    background-color: #EA5455;
+    color: white;
+}
+
+/* Button 3 CSS */
+.button-3 {
+    border-radius: 5px;
+    background-color: #002B5B;
+    border: none;
+    transition: box-shadow 0.3s;
+}
+
+.button-3:hover {
+    box-shadow: 0px 0px 10px #002B5B;
+    -webkit-box-shadow: 0px 0px 10px #002B5B;
+    -moz-box-shadow: 0px 0px 10px #002B5B;
+}
+
+/* Button 4 CSS */
+.button-4 {
+    border-radius: 5px;
+    background-color: #0E8388;
+    border: none;
+    transition: all 0.3s;
+}
+
+.button-4:hover {
+    background-color: transparent;
+    border: 2px solid #0E8388;
+    color: #0E8388;
+}
+
+/* Button 5 CSS */
+.button-5 {
+    background-color: #F0A04B;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.button-5:active {
+    transform: translateY(5px);
+}
+
+/* Button 6 CSS */
+.button-6 {
+    background-color: #537FE7;
+    border: none;
+    transition: opacity 0.3s;
+}
+
+.button-6:active {
+    opacity: 0.7;
+}
+
+/* Button 7 CSS */
+.button-7 {
+    border-radius: 5px;
+    background-color: #fb512e;
+    border: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.button-7:hover {
+    opacity: 1;
+}
+
+/* Button 8 CSS */
+.button-8 {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0px;
+    border: 2px solid #ff003b;
+    color: #ff003b;
+    opacity: 0.7;
+    position: relative;
+}
+
+.button-8 span {
+    position: relative;
+    z-index: 2;
+}
+
+.button-8::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: #ff003b;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.button-8:hover::after {
+    color: white;
+    width: 100%;
+}
+
+.button-8:hover span {
+    color: white;
+}
+
+/* Button 9 CSS */
+.button-9 {
+    border: none;
+    outline: none;
+    background: linear-gradient(to top, #FF0032, #CD0404);
+}
+
+.btn-block {
+    padding: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-block::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, white, #FF0032);
+    animation: animate 6s linear infinite;
+    z-index: -1;
+}
+
+.btn-block::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50%;
+    left: -50%;
+    transform-origin: bottom right;
+    background: linear-gradient(0deg, white, #FF0032);
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+    z-index: -2;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Button 10 CSS */
+.button-10 {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(271deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 800% 800%;
+    -webkit-animation: gradient 50s ease infinite;
+    -moz-animation: gradient 50s ease infinite;
+    animation: gradient 50s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
