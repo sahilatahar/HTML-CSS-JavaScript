@@ -126,11 +126,6 @@ body {
     position: relative;
 }
 
-.button-8 span {
-    position: relative;
-    z-index: 2;
-}
-
 .button-8::after {
     content: '';
     position: absolute;
@@ -148,7 +143,7 @@ body {
     width: 100%;
 }
 
-.button-8:hover span {
+.button-8:hover {
     color: white;
 }
 
@@ -254,4 +249,50 @@ body {
     100% {
         background-position: 0% 50%
     }
+}
+
+
+.button-11 {
+    border: none;
+    color: black;
+    font-weight: 500;
+    position: relative;
+    background-color: #0097e6;
+    color: white;
+}
+
+.button-11::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 30%;
+    height: 30%;
+    border-top: 3px solid #0097e6;
+    border-left: 3px solid #0097e6;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.button-11:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.button-11::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    width: 30%;
+    height: 30%;
+    border-right: 3px solid #0097e6;
+    border-bottom: 3px solid #0097e6;
+    transition: all 0.3s;
+    z-index: -1;
+}
+
+.button-11:hover::after {
+    width: 100%;
+    height: 100%;
 }
