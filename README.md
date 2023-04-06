@@ -110,5 +110,5 @@ https://user-images.githubusercontent.com/100127570/228227870-ddec4d9b-bfe4-4d0d
 
 ## (22) Typing Effect
 
-
+https://user-images.githubusercontent.com/100127570/230267601-a17ce84e-7979-4fed-bb20-9adb25d29d9b.mp4
 
