@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Survey Form | 2nd </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="bg-image">
+        <div class="container">
+
+            <h1 id='title'>Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id='survey-form'>
+                <div class="form-group">
+                    <label id='name-label'>Name</label>
+                    <input type='text' id='name' placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label id='email-label'>Email</label>
+                    <input type='email' id='email' placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label id='number-label'>Age<span class="clue">(optional)</span></label>
+                    <input type='number' id='number' placeholder="Enter your age" min='18' max='80' required>
+                </div>
+                <p>Which option best describes your current role?</p>
+                <div class="form-group">
+                    <select id='dropdown'>
+                        <option disabled selected>Select current role</option>
+                        <option>Student</option>
+                        <option>Full Time Job</option>
+                        <option>Part Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="form-group">
+                    <label><input type='radio' class="input-radio" name='friend-suggestion'
+                            value='Definitely'>Definitely</label>
+                    <label><input type='radio' class="input-radio" name='friend-suggestion' value='May be'>May
+                        be</label>
+                    <label><input type='radio' class="input-radio" name='friend-suggestion' value='Not Sure'>Not
+                        Sure</label>
+                </div>
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <div class="form-group">
+                    <label><input type='checkbox' class='input-checkbox' value='Front-end Projects'>Front-end
+                        Projects</label>
+                    <label><input type='checkbox' class='input-checkbox' value='Back-end Projects'>Back-end
+                        Projects</label>
+                    <label><input type='checkbox' class='input-checkbox' value='Open source Community'>Open source
+                        Community</label>
+                </div>
+                <div class="form-group">
+                    <label>Any comments or suggestions?</label>
+                    <textarea class="input-textarea" placeholder="Enter your comment here"></textarea>
+                </div>
+                <input type='submit' id='submit'>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
