@@ -16,6 +16,7 @@ h2 {
     margin-bottom: 20px;
     text-decoration: underline;
 }
+
 .mainBody {
     width: 70vw;
     background-color: white;
@@ -29,7 +30,9 @@ label {
     margin-bottom: 10px;
 }
 
-.mainBody input,select ,textarea{
+.mainBody input,
+select,
+textarea {
     width: 95%;
     margin-bottom: 20px;
     border: 1px solid black;
@@ -39,17 +42,18 @@ label {
     font-family: inherit;
 }
 
-#catagory {
+#category {
     margin: 15px 0px 30px 0px;
 }
 
-#catagory input[type="radio"],input[type="checkbox"]{
+#category input[type="radio"],
+input[type="checkbox"] {
     display: inline-block;
     width: auto;
     margin-right: 8px;
 }
 
-#catagory label {
+#category label {
     font-size: 14px;
     margin: 0px;
     height: 22px;
@@ -58,7 +62,8 @@ label {
 #languages {
     margin-bottom: 30px;
 }
-#languages label{
+
+#languages label {
     margin: 0px;
     height: 30px;
 }
@@ -76,4 +81,10 @@ label {
     border-radius: 8px;
     border: none;
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainBody {
+        width: 95vw;
+    }
 }
