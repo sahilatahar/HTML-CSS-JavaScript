@@ -98,8 +98,12 @@ header .icons span {
 
 .days li.active,
 .calender li:hover {
-    color: #ff073a;
     font-weight: 500;
+    cursor: pointer;
+}
+
+ul.days li:hover {
+    color: #ff073a;
 }
 
 @media screen and (max-width: 768px) {

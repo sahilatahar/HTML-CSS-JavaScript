@@ -21,7 +21,7 @@ h1 {
 }
 
 .wrapper {
-    width: max(500px, 40vw);
+    width: 500px;
     height: 70vh;
 }
 
@@ -42,4 +42,11 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90vw;
+    }
 }

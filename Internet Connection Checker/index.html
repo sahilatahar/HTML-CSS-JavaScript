@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,42 +10,47 @@
         * {
             margin: 0;
             padding: 0;
-
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        .body-box {
-            width: 100vw;
+
+        body {
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            gap: 1rem;
             color: white;
             font-size: 2em;
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    <div class="body-box">
-        <h1 id="text">You are currently online</h1>
-    </div>
+    <h1 id="text">You are currently online</h1>
+    <h3>Turn off your internet to see changes</h3>
+
 
     <script>
-        const bodyBox = document.querySelector('.body-box');
         window.onload = function () {
             const text = document.getElementById('text');
             text.textContent = `You are currently ${window.navigator.onLine ? 'online' : 'offline'}`;
-            bodyBox.style.backgroundColor = window.navigator.onLine ? '#4cd137' : '#e84118';
+            document.body.style.backgroundColor = window.navigator.onLine ? '#4cd137' : '#e84118';
         }
 
-        window.addEventListener('online' , () => {
+        window.addEventListener('online', () => {
             text.textContent = 'You are currently online';
-            bodyBox.style.backgroundColor = '#4cd137';
+            document.body.style.backgroundColor = '#4cd137';
         });
 
-        window.addEventListener('offline' , () => {
+        window.addEventListener('offline', () => {
             text.textContent = 'You are currently offline';
-            bodyBox.style.backgroundColor = '#e84118';
+            document.body.style.backgroundColor = '#e84118';
         });
-        
+
     </script>
 </body>
+
 </html>

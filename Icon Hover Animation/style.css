@@ -98,3 +98,16 @@ body {
     border-bottom: 4px solid #ff0000;
     color: #ff0000;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80vw;
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .icon {
+        margin: 1rem 0px;
+    }
+}

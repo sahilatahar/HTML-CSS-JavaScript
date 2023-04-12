@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 
-.icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+body {
+    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper {
+    width: 500px;
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.icon {
+    --size: 70;
+    width: calc(var(--size)*1px);
+    height: calc(var(--size)*1px);
+    border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,8 +30,19 @@
     font-weight: bold;
     font-size: 2rem;
     cursor: pointer;
-    transition-property: transform;
-    transition-duration: 0.6s;
+    transform: translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px));
+    transition: transform 0.3s ease;
+    -webkit-transform: translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px));
+    -moz-transform: translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px));
+    -ms-transform: translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px));
+    -o-transform: translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px));
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #icon1 {

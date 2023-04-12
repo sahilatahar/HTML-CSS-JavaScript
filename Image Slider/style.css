@@ -19,6 +19,7 @@ body {
   font-size: 3rem;
   color: #e31506;
   margin: 20px;
+  text-align: center;
 }
 
 .slide-container {
@@ -44,10 +45,10 @@ body {
   margin-left: -10%;
 }
 
+
 .icon {
   width: 50px;
   aspect-ratio: 9 / 16;
-  color: white;
 }
 
 #image-number {
@@ -58,4 +59,24 @@ body {
   font-size: 2em;
   color: white;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-container {
+    height: auto;
+    width: 80vw;
+  }
+
+  .btns {
+    width: 80vw;
+    transform: translateX(10%);
+    -webkit-transform: translateX(10%);
+    -moz-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    -o-transform: translateX(10%);
+  }
+
+  .icon {
+    margin: 0;
+  }
 }

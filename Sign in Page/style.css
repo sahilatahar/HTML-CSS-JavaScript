@@ -17,8 +17,9 @@ body {
 }
 
 .box {
-  width: 400px;
-  height: 400px;
+  --size: 400;
+  width: calc(var(--size)*1px);
+  height: calc(var(--size)*1px);
   position: relative;
   border-radius: 8px;
   overflow: hidden;
@@ -32,8 +33,8 @@ body {
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(0deg, white, white);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
@@ -44,8 +45,8 @@ body {
   position: absolute;
   top: -50%;
   left: -50%;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(0deg, white, white);
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
@@ -56,14 +57,15 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
 .form {
-  width: 390px;
-  height: 390px;
+  width: 96%;
+  height: 96%;
   position: absolute;
   border-radius: 8px;
   z-index: 10;
@@ -81,7 +83,7 @@ body {
 
 .inputBox {
   position: relative;
-  width: 300px;
+  width: 100%;
 }
 
 .inputBox input {
@@ -108,8 +110,8 @@ body {
   transition: 0.5s;
 }
 
-.inputBox input:focus ~ span,
-.inputBox input:valid ~ span {
+.inputBox input:focus~span,
+.inputBox input:valid~span {
   color: white;
   transform: translateY(-34px);
   font-size: 0.75em;
@@ -128,8 +130,8 @@ body {
   z-index: 1;
 }
 
-.inputBox input:focus ~ i,
-.inputBox input:valid ~ i {
+.inputBox input:focus~i,
+.inputBox input:valid~i {
   height: 40px;
 }
 
@@ -154,4 +156,10 @@ body {
   border-radius: 4px;
   position: relative;
   left: 35%;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    --size: 300;
+  }
 }

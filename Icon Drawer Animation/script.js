@@ -2,15 +2,15 @@ const icons = document.querySelectorAll('.icon');
 let isOpen = false;
 function showAndHide() {
     if (!isOpen) {
-        icons[0].style['transform'] = 'translate(0px,0px)';
-        icons[1].style['transform'] = 'translate(-110px,0px)';
-        icons[2].style['transform'] = 'translate(-80px,-80px)';
-        icons[3].style['transform'] = 'translate(0px,-110px)';
-        icons[4].style['transform'] = 'translate(80px,-80px)';
-        icons[5].style['transform'] = 'translate(110px,0px)';
+        icons[0].style['transform'] = `translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px))`;
+        icons[1].style['transform'] = `translate(calc(var(--size)*2 * -1px), calc(var(--size)/2 * -1px))`;
+        icons[2].style['transform'] = 'translate(calc(var(--size)*1.5 * -1px), calc(var(--size)*-2px - var(--size)/2 * -1px))';
+        icons[3].style['transform'] = 'translate(calc(var(--size)/2 * -1px),calc(var(--size)*2 * -1px))';
+        icons[4].style['transform'] = 'translate(calc(var(--size)*0.5px),calc(var(--size)*-2px - var(--size)/2 * -1px))';
+        icons[5].style['transform'] = 'translate(calc(var(--size) * 1px), calc(var(--size)/2 * -1px))';
     } else {
         for (let i = 0; i < icons.length; i++) {
-            icons[i].style['transform'] = `translate(0,0)`;
+            icons[i].style['transform'] = `translate(calc(var(--size)/2 * -1px), calc(var(--size)/2 * -1px))`;
         }
     }
     isOpen = !isOpen;

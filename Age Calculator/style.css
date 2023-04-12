@@ -90,5 +90,6 @@ button {
     .main-box {
         width: 90vw;
         height: 40vh;
+        min-height: 100vw;
     }
 }

@@ -1,88 +1,106 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- body {
-     width: 100vw;
-     min-height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background-color: #15234b;
-     font-family: 'Caveat', cursive;
- }
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15234b;
+    font-family: "Caveat", cursive;
+}
 
- .backgroundBox {
-     width: 50vw;
-     height: 80vh;
-     min-height: 400px;
-     background-color: #1DA1F2;
-     padding: 20px;
-     border-radius: 5px;
-     display: flex;
-     justify-content: space-evenly;
-     flex-direction: column;
-     align-items: center;
- }
+.backgroundBox {
+    width: 50vw;
+    height: 80vh;
+    min-height: 400px;
+    background-color: #1da1f2;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 
- .box {
-     width: 40vw;
-     height: 60vh;
-     min-height: 300px;
-     background-color: white;
-     padding: 20px;
-     border-radius: 5px;
-     display: flex;
-     justify-content: space-evenly;
-     flex-direction: column;
-     align-items: center;
- }
+.box {
+    width: 85%;
+    height: 85%;
+    min-height: 300px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
 
- .share-text {
-     font-size: 1.5vw;
- }
+.share-text {
+    font-size: 1rem;
+}
 
- img {
-     width: 3vw;
- }
+img {
+    width: 10%;
+}
 
- .quete,
- .author {
-     width: 100%;
-     height: 40%;
-     color: black;
-     font-size: 2vw;
-     text-align: justify;
- }
+.quote,
+.author {
+    width: 100%;
+    height: 40%;
+    color: black;
+    font-size: 2rem;
+}
 
- .quete {
-     padding: 0px 4vw;
- }
+.quote {
+    padding: 0px 2rem;
+}
 
- .author {
-     height: 10%;
-     font-size: 1.5vw;
-     text-align: right;
-     padding-right: 3vw;
- }
+.author {
+    height: 10%;
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 2rem;
+}
 
- .box button {
-     width: 100%;
-     height: 15%;
-     border-radius: 5px;
-     border: none;
-     background-color: #fc6867;
-     color: white;
-     font-size: 1rem;
- }
+.box button {
+    width: 100%;
+    height: 15%;
+    border-radius: 5px;
+    border: none;
+    background-color: #fc6867;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+}
 
- #shareBtn {
-     width: 50%;
-     height: 12%;
-     background-color: #1DA1F2;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
+#shareBtn {
+    width: 50%;
+    height: 12%;
+    background-color: #1da1f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .backgroundBox {
+        width: 90vw;
+        height: auto;
+    }
+
+    .box {
+        width: 95%;
+        height: auto;
+        padding: 1rem;
+    }
+}

@@ -74,3 +74,10 @@ body {
     pointer-events: none;
     transition: opacity 0.2s 0.2s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .box {
+        width: 90vw;
+        height: auto;
+    }
+}

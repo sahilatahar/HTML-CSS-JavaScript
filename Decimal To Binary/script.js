@@ -1,8 +1,8 @@
-let convertion = document.getElementById('convertion');
+let conversion = document.getElementById('conversion');
 let input_box = document.getElementById('input-box');
 let result_box = document.getElementById('result-box');
 
-convertion.addEventListener('change', () => {
+conversion.addEventListener('change', () => {
     input_box.value = '';
     result_box.textContent = '';
 });
@@ -12,7 +12,7 @@ input_box.addEventListener('input', () => {
         result_box.textContent = '';
         return;
     }
-    if (convertion.value == "Decimal To Binary") {
+    if (conversion.value == "Decimal To Binary") {
         let input_value = parseInt(input_box.value);
         result_box.textContent = input_value.toString(2);
     } else {

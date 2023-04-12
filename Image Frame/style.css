@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3A47;
+}
+
+.container {
+    width: 400px;
+    aspect-ratio: 1;
+    background-image: url('./image/child_image.jpg');
+    background-size: contain;
+    position: relative;
+}
+
+.container::before {
+    --border-width: 40px;
+    content: '';
+    border: var(--border-width) solid #f5f6fa;
+    width: 90%;
+    height: 90%;
+    top: calc(-1*var(--border-width) + 5%);
+    left: calc(-1*var(--border-width) + 5%);
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.imgPart-1,
+.imgPart-4 {
+    width: 50%;
+    height: 50%;
+}
+
+.imgPart-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./image/child_image.jpg');
+    background-position: top left;
+    background-size: 200% 200%;
+}
+
+.imgPart-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url('./image/child_image.jpg');
+    background-position: bottom right;
+    background-size: 200% 200%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 50vw;
+    }
+
+    .container::before {
+        --border-width: 20px;
+    }
+}

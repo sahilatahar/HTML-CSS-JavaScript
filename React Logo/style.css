@@ -18,8 +18,9 @@ body {
 }
 
 .container {
-    width: 500px;
-    height: 500px;
+    --size: 500;
+    width: calc(var(--size)*1px);
+    height: calc(var(--size)*1px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,5 +124,11 @@ body {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        --size: 300;
     }
 }

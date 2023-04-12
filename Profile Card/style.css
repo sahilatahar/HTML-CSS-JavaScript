@@ -21,6 +21,7 @@
   background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
   border-radius: 20px;
   transition: all 0.3s;
+  overflow: hidden;
 }
 
 .card2 {
@@ -103,6 +104,7 @@
   height: 20%;
   padding: 0px 10px;
 }
+
 .header {
   padding-left: 8px;
   font-size: 15px;

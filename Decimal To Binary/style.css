@@ -64,3 +64,9 @@ label {
     padding: 10px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 786px) {
+    .main-box {
+        width: 90vw;
+    }
+}

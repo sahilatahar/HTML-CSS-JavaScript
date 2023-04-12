@@ -22,7 +22,7 @@ body {
     display: inline-block;
     width: 40%;
     height: 40%;
-    background-color: red;
+    background-color: #1a1818;
     animation: animate 2s linear infinite;
     -o-animation: animate 2s linear infinite;
     -webkit-animation: animate 2s linear infinite;
