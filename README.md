@@ -32,7 +32,7 @@
 | 25  | [Technical Documentation](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/technical-documentation)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/technical-documentation/)               |
 | 26  | [Twitter Sidebar](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/twitter-sidebar)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/twitter-sidebar/)               |
 | 27  | [Typing Effect](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/typing-effect)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/typing-effect/)               |
-| 28  | [twitter sidebar](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/word-counter)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/word-counter/)               |
+| 28  | [Word Counter](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/word-counter)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/word-counter/)               |
 
 
 
