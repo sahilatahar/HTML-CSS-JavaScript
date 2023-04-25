@@ -26,7 +26,7 @@
 | 19  | [React Logo](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/react-logo)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/react-logo/)               |
 | 20  | [Responsive Navbar](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/responsive-navbar)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/responsive-navbar/)               |
 | 21  | [Signin Page](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/signin-page)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/signin-page/)             |
-| 22  | [Snake Game](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/responsive-navbar)                             | Live Demo               |
+| 22  | [Snake Game](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/snake-game)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/snake-game)               |
 | 23  | [Survey Form](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/survey-form)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/survey-form/)               |
 | 24  | [Survey Form 2](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/survey-form2)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/survey-form2/)               |
 | 25  | [Technical Documentation](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/technical-documentation)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/technical-documentation/)               |
