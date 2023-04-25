@@ -19,7 +19,7 @@
 | 12  | [Image Frame](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/image-frame)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/image-frame/)               |
 | 13  | [Image Slider](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/image-slider)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/image-slider/)               |
 | 14  | [Internet Connection Checker](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/internet-connection-checker)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/internet-connection-checker/)               |
-| 15  | [Loaders](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/loaders)                             | Live Demo               |
+| 15  | [Loaders](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/loaders)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/loaders/)               |
 | 16  | [Profile Card](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/profile-card)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/profile-card/)               |
 | 17  | [QR Code Generator](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/qr-code-generator)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/qr-code-generator/)               |
 | 18  | [Quetes Generator](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/quetes-generator)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/quetes-generator/)               |

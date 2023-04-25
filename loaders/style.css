@@ -1,32 +1,107 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 }
 
-.loader {
+.box {
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
+
+/* Loader 1 CSS */
+
+.box-1 .loader {
+    width: 80px;
+    height: 80px;
+}
+
+.box-1 .circle {
+    height: 100%;
+    border-radius: 50%;
+    animation: animate 2s linear infinite;
+    -o-animation: animate 2s linear infinite;
+    -webkit-animation: animate 2s linear infinite;
+    -moz-animation: animate 2s linear infinite;
+    border: 8px solid #30395290;
+    border-top: 8px solid #303952;
+
+}
+
+@-webkit-keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-o-keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@-ms-keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Loader 2 CSS */
+.box-2 .loader {
     width: 100px;
     height: 100px;
     position: relative;
 }
 
-.loader>span {
+.box-2 .loader>span {
     position: absolute;
     display: inline-block;
     width: 40%;
     height: 40%;
     background-color: #1a1818;
-    animation: animate 2s linear infinite;
-    -o-animation: animate 2s linear infinite;
-    -webkit-animation: animate 2s linear infinite;
-    -moz-animation: animate 2s linear infinite;
+    animation: animate-2 2s linear infinite;
+    -o-animation: animate-2 2s linear infinite;
+    -webkit-animation: animate-2 2s linear infinite;
+    -moz-animation: animate-2 2s linear infinite;
     border-radius: 3px;
 }
 
@@ -45,7 +120,7 @@ body {
 }
 
 
-@-webkit-keyframes animate {
+@-webkit-keyframes animate-2 {
     0% {
         top: 0%;
         left: 0%;
@@ -72,7 +147,7 @@ body {
     }
 }
 
-@-o-keyframes animate {
+@-o-keyframes animate-2 {
     0% {
         top: 0%;
         left: 0%;
@@ -99,7 +174,7 @@ body {
     }
 }
 
-@-moz-keyframes animate {
+@-moz-keyframes animate-2 {
     0% {
         top: 0%;
         left: 0%;
@@ -126,7 +201,7 @@ body {
     }
 }
 
-@keyframes animate {
+@keyframes animate-2 {
     0% {
         top: 0%;
         left: 0%;
