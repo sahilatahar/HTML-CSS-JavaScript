@@ -34,6 +34,7 @@
 | 27  | [Typing Effect](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/typing-effect)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/typing-effect/)               |
 | 28  | [Word Counter](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/word-counter)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/word-counter/)               |
 | 29  | [Git Logo](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/git-logo)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/git-logo/)               |
+| 30  | [Image Expansion](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/image-expansion)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/image-expansion/)               |
 
 
 
