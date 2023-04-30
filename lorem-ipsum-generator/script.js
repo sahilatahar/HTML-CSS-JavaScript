@@ -9,6 +9,7 @@ const copyBtn = document.querySelector('#copy-btn');
 const form = document.querySelector('#form');
 const outputContainer = document.querySelector('.output-container');
 const para = document.querySelector('#para-input');
+const generateBtn = document.querySelector('#generate-btn');
 
 document.body.onload = (e) => {
     for (let i = 1; i <= 3; i++) {
@@ -28,7 +29,14 @@ form.onsubmit = (e) => {
         }
         outputContainer.innerHTML += `<div class='output-para'>${text[index]}</div>`;
     }
+    generateBtn.textContent = 'Generated';
+    setTimeout(() => {
+        generateBtn.textContent = 'Generate';
+    }, 3000);
     copyBtn.textContent = 'Copy to Clipboard';
+    copyBtn.scrollIntoView({
+        behavior: "smooth"
+    });
 }
 
 copyBtn.addEventListener('click', async (e) => {
