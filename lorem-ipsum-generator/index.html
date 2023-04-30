@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lorem Ipsum Generator</h1>
+            <form id="form">
+                <div class="form-group">
+                    <label>No of paragraph</label>
+                    <input type="number" name="paragraph" id="para-input" min="1" value="3" required>
+                </div>
+                <button type="submit" id="generate-btn">Generate</button>
+            </form>
+        </div>
+
+        <section class="output-section">
+            <div class="options">
+                <button id="copy-btn">Copy to Clipboard</button>
+            </div>
+            <div class="output-container">
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

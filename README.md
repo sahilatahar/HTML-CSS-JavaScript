@@ -35,7 +35,7 @@
 | 28  | [Word Counter](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/word-counter)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/word-counter/)               |
 | 29  | [Git Logo](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/git-logo)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/git-logo/)               |
 | 30  | [Image Expansion](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/image-expansion)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/image-expansion/)               |
-
+| 31  | [Lorem Ipsum Generator](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/lorem-ipsum-generator)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/lorem-ipsum-generator/)               |
 
 
 ## Disclaimer Regarding Ownership of this repository

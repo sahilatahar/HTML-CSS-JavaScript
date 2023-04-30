@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #8395a7;
+}
+
+.container {
+    width: min(800px, 90vw);
+    display: flex;
+}
+
+.header {
+    width: 300px;
+    min-width: 300px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #30336b;
+    color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.header>h1 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.header>form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-template: 0.5rem;
+}
+
+.form-group>label {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form-group>input {
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#generate-btn {
+    height: 50px;
+    width: 120px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: white;
+    color: #30336b;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.output-section {
+    height: 90vh;
+    width: 100%;
+    padding: 1rem;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.output-container {
+    height: 90%;
+    overflow: auto;
+}
+
+.options {
+    height: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+#copy-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+}
+
+.output-para {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        min-width: auto;
+        height: max-content;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .output-section {
+        margin-bottom: 1rem;
+    }
+}
