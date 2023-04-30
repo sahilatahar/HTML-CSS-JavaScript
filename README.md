@@ -38,5 +38,5 @@
 | 31  | [Lorem Ipsum Generator](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/lorem-ipsum-generator)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/lorem-ipsum-generator/)               |
 
 
-## Disclaimer Regarding Ownership of this repository
-### To be clear, some of the projects in this repository were created during my learning process using different web resources, including YouTube tutorials. There may occasionally be situations in which I've taken ideas or portions of code from other sources. I want to be open and honest about this.
+### Disclaimer Regarding Ownership of this repository
+To be clear, some of the projects in this repository were created during my learning process using different web resources, including YouTube tutorials. There may occasionally be situations in which I've taken ideas or portions of code from other sources. I want to be open and honest about this.
