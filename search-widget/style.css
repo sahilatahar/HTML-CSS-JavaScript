@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #577BFF;
+}
+
+.search-box {
+  width: 250px;
+  --height: 50px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.search-input {
+  width: 0px;
+  height: var(--height);
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  transition: width 0.5s;
+  padding: 0;
+}
+
+.search-input.show {
+  width: 200px;
+  padding-left: 0.5rem;
+}
+
+.search-icon {
+  width: var(--height);
+  aspect-ratio: 1;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
