@@ -38,6 +38,7 @@
 | 31  | [Lorem Ipsum Generator](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/lorem-ipsum-generator)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/lorem-ipsum-generator/)               |
 | 32  | [Search Widget](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/search-widget)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/search-widget/)               |
 | 33  | [Feedback UI](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/feedback-ui)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/feedback-ui/)               |
+| 34  | [Hover Board](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/hover-board)                             | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/hover-board/)               |
 
 
 
