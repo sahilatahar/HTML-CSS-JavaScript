@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.95);
+  color: white;
+}
+
+.container {
+  width: min(400px, 90vw);
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 80%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+}
+
+.brand-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group>input {
+  padding: 0.5rem;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 3px;
+  background: transparent;
+  color: white;
+}
+
+.signin-btn {
+  width: 100%;
+  background: #006395;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.options {
+  padding-top: 3rem;
+}
+
+.options p {
+  color: #0a88c7;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.divider {
+  border: 0.7px solid grey;
+}
+
+.new-ac-btn {
+  width: 100%;
+  padding: 0.5rem;
+  color: white;
+  background-color: grey;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+.disclamer-block {
+  padding-top: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.disclamer-block>p {
+  font-size: 0.8rem;
+}
