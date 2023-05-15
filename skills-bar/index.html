@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="input-container">
+        <div class="inputs">
+            <input type="text" name="skill" id="skill-input" placeholder="Enter your skill here">
+            <input type="number" name="percentage" id="skill-per-input" value="50" step="10" min="10" max="100"
+                placeholder="%">
+        </div>
+        <div class="buttons">
+            <button id="remove-skill-btn">Remove All Skills</button>
+            <button id="add-skill-btn">Add To Skills</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="heading">Skills</h2>
+        <div class="group">
+            <label>HTML<span>90%</span></label>
+            <div class="bar" style='box-shadow: 0px 0px 2px #f3442a;'>
+                <div class="per-level" style="width: 90%; background-color: #f3442a;"></div>
+            </div>
+        </div>
+        <div class="group">
+            <label>CSS<span>80%</span></label>
+            <div class="bar" style='box-shadow: 0px 0px 2px #4481eb;'>
+                <div class="per-level" style="width: 80%; background-color: #4481eb;"></div>
+            </div>
+        </div>
+        <div class="group">
+            <label>JavaScript<span>50%</span></label>
+            <div class="bar" style='box-shadow: 0px 0px 2px #feb300;'>
+                <div class="per-level" style="width: 50%; background-color: #feb300;"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
