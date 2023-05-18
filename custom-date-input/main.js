@@ -28,6 +28,7 @@ function checkLeapYear(year) {
 const setDayOptions = () => {
   checkLeapYear(year) ? days[1] = 29 : days[1] = 28;
 
+  yearSelect.innerHTML = '';
   for (let i = 1; i <= days[month]; i++) {
     daySelect.innerHTML += `<option value="${i}">${i}</option>`;
   }
