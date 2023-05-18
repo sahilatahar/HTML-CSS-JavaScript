@@ -41,7 +41,8 @@
 | 33  | [Feedback UI](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/feedback-ui)                                 | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/feedback-ui/)                 |
 | 34  | [Hover Board](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/hover-board)                                 | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/hover-board/)                 |
 | 35  | [Login Form](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/login-form)                                   | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/login-form/)                  |
-| 36  | [Skills Bar](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/skills-bar)                                     | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/skills-bar/)                   |
+| 36  | [Skills Bar](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/skills-bar)                                   | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/skills-bar/)                  |
+| 37  | [Custom Date Input](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/custom-date-input)                     | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/custom-date-input/)           |
 
 ### Disclaimer Regarding Ownership of this repository
 
