@@ -45,6 +45,7 @@
 | 37  | [Custom Date Input](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/custom-date-input)                     | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/custom-date-input/)           |
 | 38  | [Social Media Card](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/social-media-card)                     | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/social-media-card/)           |
 | 39  | [Microsoft Logo](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/microsoft-logo)                           | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/microsoft-logo/)              |
+| 40  | [Custom Dropdown](https://github.com/sahilatahar/HTML-CSS-JavaScript/tree/main/custom-dropdown)                         | [Live Demo](https://sahilatahar.github.io/HTML-CSS-JavaScript/custom-dropdown/)             |
 
 ### Disclaimer Regarding Ownership of this repository
 
